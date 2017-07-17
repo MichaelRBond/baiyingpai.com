@@ -1,0 +1,4 @@
+DirectoryIndex index.htm index.html index.php index.xml
+#RewriteEngine On 
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ https://baiyingpai.com/$1 [R,L]
